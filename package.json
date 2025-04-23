@@ -2,6 +2,7 @@
   "name": "tamagui-vite-build-test",
   "private": true,
   "packageManager": "yarn@4.5.0",
+  "type": "module",
   "scripts": {
     "web": "yarn dev",
     "dev:vite": "NODE_ENV=development vite --host --clearScreen false",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "@tamagui/animations-css": "^1.126.1",
+    "@tamagui/config": "^1.126.1",
     "@tamagui/core": "^1.126.1",
     "@tamagui/create-theme": "^1.126.1",
     "@tamagui/react-native-svg": "^1.126.1",
