@@ -9048,6 +9048,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tamagui-vite-build-test@workspace:."
   dependencies:
+    "@babel/template": "npm:^7.20.7"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.11"
     "@tamagui/animations-css": "npm:^1.126.1"
     "@tamagui/config": "npm:^1.126.1"
