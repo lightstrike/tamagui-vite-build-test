@@ -9074,6 +9074,7 @@ __metadata:
     tamagui: "npm:^1.126.1"
     tamagui-loader: "npm:^1.126.1"
     thread-loader: "npm:^4.0.2"
+    typescript: "npm:^5.8.2"
     url-loader: "npm:^4.1.1"
     vite: "npm:^6.0.6"
     webpack: "npm:^5.91.0"
