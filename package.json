@@ -16,6 +16,7 @@
   "dependencies": {
     "@tamagui/animations-css": "^1.126.1",
     "@tamagui/config": "^1.126.1",
+    "@tamagui/constants": "^1.126.1",
     "@tamagui/core": "^1.126.1",
     "@tamagui/create-theme": "^1.126.1",
     "@tamagui/react-native-svg": "^1.126.1",

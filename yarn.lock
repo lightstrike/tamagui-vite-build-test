@@ -2384,7 +2384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/constants@npm:1.126.1":
+"@tamagui/constants@npm:1.126.1, @tamagui/constants@npm:^1.126.1":
   version: 1.126.1
   resolution: "@tamagui/constants@npm:1.126.1"
   peerDependencies:
@@ -9051,6 +9051,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.11"
     "@tamagui/animations-css": "npm:^1.126.1"
     "@tamagui/config": "npm:^1.126.1"
+    "@tamagui/constants": "npm:^1.126.1"
     "@tamagui/core": "npm:^1.126.1"
     "@tamagui/create-theme": "npm:^1.126.1"
     "@tamagui/react-native-svg": "npm:^1.126.1"
