@@ -3482,7 +3482,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/web@npm:1.126.1":
+"@tamagui/web@npm:1.126.1, @tamagui/web@npm:^1.126.1":
   version: 1.126.1
   resolution: "@tamagui/web@npm:1.126.1"
   dependencies:
@@ -9055,6 +9055,7 @@ __metadata:
     "@tamagui/create-theme": "npm:^1.126.1"
     "@tamagui/react-native-svg": "npm:^1.126.1"
     "@tamagui/vite-plugin": "npm:^1.126.1"
+    "@tamagui/web": "npm:^1.126.1"
     "@vitejs/plugin-react-swc": "npm:^3.6.0"
     async-retry: "npm:1.3.3"
     babel-polyfill: "npm:^6.26.0"
