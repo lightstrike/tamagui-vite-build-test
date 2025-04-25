@@ -42,7 +42,7 @@
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
     "@tamagui/vite-plugin": "^1.126.1",
-    "@vitejs/plugin-react-swc": "^3.6.0",
+    "@vitejs/plugin-react-swc": "^3.9.0",
     "async-retry": "1.3.3",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^6.10.0",
