@@ -14,6 +14,9 @@ const config = createTamagui({
   themes,
   tokens,
   media,
+  settings: {
+    disableRootThemeClass: false,
+  }
 })
 
 type AppConfig = typeof config
