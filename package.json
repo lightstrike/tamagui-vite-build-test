@@ -14,6 +14,7 @@
     "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest"
   },
   "dependencies": {
+    "@tamagui/config": "1.112.1",
     "react": "*",
     "react-dom": "*",
     "tamagui": "1.112.1"
@@ -21,24 +22,7 @@
   "devDependencies": {
     "@babel/template": "^7.20.7",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
-    "@tamagui/animate-presence": "1.112.1",
-    "@tamagui/animations-css": "1.112.1",
-    "@tamagui/cli": "1.112.1",
-    "@tamagui/config": "1.112.1",
-    "@tamagui/constants": "1.112.1",
-    "@tamagui/core": "1.112.1",
-    "@tamagui/create-context": "1.112.1",
-    "@tamagui/create-theme": "1.112.1",
-    "@tamagui/get-button-sized": "1.112.1",
-    "@tamagui/helpers": "1.112.1",
-    "@tamagui/polyfill-dev": "1.112.1",
-    "@tamagui/react-native-svg": "1.112.1",
-    "@tamagui/stacks": "1.112.1",
-    "@tamagui/start-transition": "1.112.1",
-    "@tamagui/theme-builder": "1.112.1",
-    "@tamagui/use-direction": "1.112.1",
     "@tamagui/vite-plugin": "1.112.1",
-    "@tamagui/web": "1.112.1",
     "@types/node": "^22.15.2",
     "@vitejs/plugin-react-swc": "^3.9.0",
     "async-retry": "1.3.3",
@@ -54,14 +38,9 @@
     "react-native-web": "^0.20.0",
     "react-refresh": "^0.14.0",
     "style-loader": "^3.3.4",
-    "tamagui-loader": "1.112.1",
     "thread-loader": "^4.0.2",
     "typescript": "^5.8.2",
     "url-loader": "^4.1.1",
-    "vite": "^6.3.3",
-    "webpack": "^5.91.0",
-    "webpack-bundle-analyzer": "^4.10.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "vite": "^6.3.3"
   }
 }
