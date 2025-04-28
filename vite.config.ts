@@ -9,7 +9,7 @@ export default defineConfig({
     tamaguiPlugin({
       optimize: process.env.EXTRACT === '1',
       components: ['tamagui'],
-      config: 'src/tamagui.config.ts',
+      config: './src/tamagui.config.ts',
     }),
   ].filter(Boolean),
 })
