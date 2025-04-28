@@ -1,33 +1,21 @@
 {
   "compilerOptions": {
-    "importHelpers": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true,
-    "downlevelIteration": true,
-    "strict": true,
-    "esModuleInterop": true,
-    "inlineSourceMap": true,
-    "preserveSymlinks": true,
+    "useDefineForClassFields": true,
+    "target": "es2022",
+    "module": "es2022",
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
     "jsx": "react-jsx",
-    "module": "system",
-    "moduleResolution": "node",
-    "noEmitOnError": false,
-    "noImplicitAny": false,
-    "noImplicitReturns": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "preserveConstEnums": true,
-    "removeComments": false,
     "skipLibCheck": true,
-    "sourceMap": false,
-    "strictNullChecks": true,
-    "target": "es2020",
-    "types": ["node", "react"],
-    "lib": ["dom", "esnext"]
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   },
-  "exclude": ["test", "dist", "types", "**/__tests__"],
-  "typeAcquisition": {
-    "enable": true
-  }
+  "include": ["vite.config.ts", "src"]
 }
