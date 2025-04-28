@@ -1,20 +1,22 @@
 {
   "name": "tamagui-vite-build-test",
   "private": true,
-  "packageManager": "yarn@4.5.0",
   "type": "module",
+  "packageManager": "pnpm@10.7.1",
   "scripts": {
-    "web": "yarn dev",
-    "dev:vite": "NODE_ENV=development vite --host --clearScreen false",
-    "dev:vite:extract": "EXTRACT=1 yarn dev",
-    "dev": "yarn dev:webpack",
-    "dev:webpack": "DISABLE_EXTRACTION=true NODE_ENV=development webpack serve",
-    "dev:extract": "DISABLE_EXTRACTION=false NODE_ENV=development webpack serve",
-    "prod": "NODE_ENV=production webpack --json=dist/compilation-stats.json",
-    "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "watch": "pnpm build --watch",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "wrangler:dev": "wrangler pages dev ./dist --local",
+    "wrangler:deploy": "wrangler pages deploy ./dist",
+    "upgrade:tamagui": "pnpm up '*tamagui*'@latest '@tamagui/*'@latest"
   },
   "dependencies": {
+    "@tamagui/animations-css": "1.112.1",
     "@tamagui/config": "1.112.1",
+    "@tamagui/core": "1.112.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-native-web": "^0.20.0",
